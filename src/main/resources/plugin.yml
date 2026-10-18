@@ -1,0 +1,15 @@
+name: CastleGenerator
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+author: EnderDevelopment
+api-version: "1.21"
+commands:
+  ciao:
+    description: Greets the player.
+    usage: /ciao
+  generatecastle:
+    description: Generates a castle at your location.
+    usage: /generatecastle
+  castlesize:
+    description: Sets the size of the castle.
+    usage: /castlesize <size>
